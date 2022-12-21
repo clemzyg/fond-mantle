@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 375px) {
+  .container {
+    position: absolute;
+    max-width: 300px;
+    min-height: 400px;
+    background-color: hsl(0deg, 0%, 100%);
+    margin: 20% 10%;
+    border: none;
+    border-radius: 8px;
+  }
+  .container .shape {
+    width: 90%;
+    height: 55%;
+    margin: 10px auto;
+    border: none;
+    border-radius: 8px;
+  }
+  .container .shape .img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+  }
+  .container .text {
+    width: 80%;
+    height: 45%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .container .text .first {
+    font-weight: 700px;
+    color: hsl(220deg, 15%, 55%);
+    margin-bottom: 10px;
+  }
+  .container .text .second {
+    font-weight: 400;
+    color: hsl(212deg, 45%, 89%);
+  }
+}
+@media (max-width: 499px) and (min-width: 376px) {
+  .container {
+    position: absolute;
+    max-width: 300px;
+    min-height: 400px;
+    background-color: hsl(0deg, 0%, 100%);
+    margin: 20% 25%;
+    border: none;
+    border-radius: 8px;
+  }
+  .container .shape {
+    width: 90%;
+    height: 55%;
+    margin: 10px auto;
+    border: none;
+    border-radius: 8px;
+  }
+  .container .shape .img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+  }
+  .container .text {
+    width: 80%;
+    height: 45%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .container .text .first {
+    font-weight: 700px;
+    color: hsl(220deg, 15%, 55%);
+    margin-bottom: 10px;
+  }
+  .container .text .second {
+    font-weight: 400;
+    color: hsl(212deg, 45%, 89%);
+  }
+}
+@media (max-width: 1440px) and (min-width: 500px) {
+  body {
+    max-width: 1440px;
+    min-height: 600px;
+    align-content: center;
+  }
+  .container {
+    max-width: 300px;
+    min-height: 400px;
+    background-color: hsl(0deg, 0%, 100%);
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  .container .shape {
+    width: 95%;
+    height: 60%;
+    margin: 2px auto;
+    border: none;
+    border-radius: 8px;
+  }
+  .container .shape .img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+  }
+  .container .text {
+    width: 75%;
+    height: 40%;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .container .text .first {
+    font-size: 700;
+    color: hsl(220deg, 15%, 55%);
+    margin-bottom: 10px;
+  }
+  .container .text .second {
+    font-size: 400;
+    color: hsl(212deg, 45%, 89%);
+  }
+}
+/*
+@media(max-width:2560px) and (min-width: 1441){
+  body{
+    max-width: 1440px;
+    min-height: 600px;
+    align-content: center;
+  }
+
+  .container{
+    //position: absolute;
+    max-width: 300px;
+    min-height: 400px;
+    background-color: $whiteBg;
+   // align-content: center;
+    //margin: 50% 25%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+
+    .shape{
+      width: 95%;
+      height: 60%;
+      margin: 2px auto;
+      border: none;
+      border-radius: 8px;
+
+      .img{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 8px;
+      }
+    }
+
+    .text{
+      width: 75%;
+      height: 40%;
+      text-align: center;
+      margin: 10px auto;
+
+
+      .first{
+        font-size: 700;
+        color:hsl(220, 15%, 55%);
+        margin-bottom: 10px;
+      }
+
+      .second{
+        font-size: 400;
+        color: hsl(212, 45%, 89%);
+      }
+    }
+  }
+
+
+}
+*/
+
+/*# sourceMappingURL=main.css.map */
